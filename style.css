@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.inputs{
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.button{
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.button:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+
+#result{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
