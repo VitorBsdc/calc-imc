@@ -10,3 +10,9 @@ function calcular() {
 
   document.getElementById("result").innerHTML = 'IMC: ' + imcArrendondado;
 }
+
+function limpar() {
+  document.getElementById('height').value = '';
+  document.getElementById('weight').value = '';
+  document.getElementById('result').innerHTML = '';
+}
