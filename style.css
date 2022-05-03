@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .box{
     background-color: cornflowerblue;
     padding: 20px;
@@ -40,6 +39,12 @@
 }
 
 #result{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+#resultTwo{
     font-family: sans-serif;
     color: white;
     text-align: center;
